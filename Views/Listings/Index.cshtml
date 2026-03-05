@@ -6,12 +6,12 @@
 <div class="row g-4">
     <aside class="col-lg-3">
         <div class="filter-card p-3 p-lg-4 rounded-4">
-            <h2 class="h6 fw-bold mb-3">Filters</h2>
+            <h2 class="h6 fw-bold mb-3">Филтри</h2>
 
             <form method="get" asp-action="Index" asp-controller="Listings">
                 <div class="mb-3">
                     <label class="form-label">Терсене</label>
-                    <input class="form-control" name="q" value="@Context.Request.Query["q"]" placeholder="Търси продукт" />
+                    <input class="form-control" name="q" value="@Context.Request.Query["q"]" placeholder="Търси продукт" autocomplete="off" />
                 </div>
 
                 <div class="mb-3">

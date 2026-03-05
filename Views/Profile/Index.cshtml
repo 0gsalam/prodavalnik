@@ -1,6 +1,6 @@
 @model New_project_2.ViewModels.ProfileViewModel
 @{
-    ViewData["Title"] = "Profile";
+    ViewData["Title"] = "Профил";
     var initials = string.IsNullOrWhiteSpace(Model.User.Username)
         ? "U"
         : Model.User.Username.Substring(0, Math.Min(Model.User.Username.Length, 2)).ToUpper();
@@ -16,21 +16,21 @@
                     <small class="text-muted">@Model.User.Email</small>
                 </div>
             </div>
-            <p class="text-muted">Member since @Model.User.CreatedAtUtc.ToString("yyyy")</p>
-            <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark w-100">Create Listing</a>
+            <p class="text-muted">Члез от @Model.User.CreatedAtUtc.ToString("yyyy")</p>
+            <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark w-100">Създай обява</a>
         </div>
     </div>
 
     <div class="col-lg-8">
         <div class="surface-card p-4 rounded-4">
-            <h2 class="h5 mb-3">My Listings</h2>
+            <h2 class="h5 mb-3">Моите обяви</h2>
             <div class="table-responsive">
                 <table class="table align-middle">
                     <thead>
                         <tr>
-                            <th>Title</th>
-                            <th>Price</th>
-                            <th>Category</th>
+                            <th>Заглавие</th>
+                            <th>Цена</th>
+                            <th>Категория</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -42,7 +42,7 @@
                                 <td class="fw-semibold">$@item.Price</td>
                                 <td><span class="badge text-bg-light">@item.Category</span></td>
                                 <td class="text-end">
-                                    <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View</a>
+                                    <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Виж    </a>
                                 </td>
                             </tr>
                         }

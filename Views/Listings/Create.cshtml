@@ -1,14 +1,14 @@
 @model New_project_2.ViewModels.CreateListingViewModel
 @{
-    ViewData["Title"] = "Create Listing";
+    ViewData["Title"] = "Създай обява";
 }
 
 <div class="row justify-content-center">
     <div class="col-lg-8 col-xl-7">
         <div class="surface-card p-4 p-lg-5 rounded-4">
             <div class="mb-4">
-                <h1 class="h4 mb-1">Create New Listing</h1>
-                <p class="text-muted mb-0">Fill in your product details and publish your ad.</p>
+                <h1 class="h4 mb-1">Създай нова обява</h1>
+                <p class="text-muted mb-0">Попълни детайлите за продукта си и публикувай.</p>
             </div>
 
             <form method="post" asp-action="Create" asp-controller="Listings">
@@ -16,43 +16,43 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
 
                 <div class="mb-3">
-                    <label asp-for="Title" class="form-label"></label>
-                    <input asp-for="Title" class="form-control" placeholder="e.g. iPhone 14 Pro, 256GB" />
+                    <label asp-for="Title" class="form-label">Заглавие</label>
+                    <input asp-for="Title" class="form-control" placeholder="пример iPhone 14 Pro, 256GB" />
                     <span asp-validation-for="Title" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
-                    <label asp-for="Description" class="form-label"></label>
-                    <textarea asp-for="Description" class="form-control" rows="5" placeholder="Describe condition, included accessories, and location"></textarea>
+                    <label asp-for="Description" class="form-label">Описание</label>
+                    <textarea asp-for="Description" class="form-control" rows="5" placeholder="Опиши състория, включени аксесоари, и локация"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
 
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <label asp-for="Price" class="form-label"></label>
+                        <label asp-for="Price" class="form-label">Цена</label>
                         <input asp-for="Price" class="form-control" placeholder="0.00" />
                         <span asp-validation-for="Price" class="text-danger"></span>
                     </div>
                     <div class="col-md-6">
-                        <label asp-for="Category" class="form-label"></label>
+                        <label asp-for="Category" class="form-label">Категория</label>
                         <select asp-for="Category" class="form-select">
-                            <option value="">Choose category</option>
-                            <option>Electronics</option>
-                            <option>Vehicles</option>
-                            <option>Home and Garden</option>
-                            <option>Fashion</option>
+                            <option value="">Избери категория</option>
+                            <option>Електроника</option>
+                            <option>Коли</option>
+                            <option>За дома и градината</option>
+                            <option>Мода</option>
                         </select>
                         <span asp-validation-for="Category" class="text-danger"></span>
                     </div>
                 </div>
 
                 <div class="mt-3 mb-4">
-                    <label asp-for="ImageUrl" class="form-label"></label>
+                    <label asp-for="ImageUrl" class="form-label">Линк към снимка</label>
                     <input asp-for="ImageUrl" class="form-control" placeholder="https://example.com/photo.jpg" />
                     <span asp-validation-for="ImageUrl" class="text-danger"></span>
                 </div>
 
-                <button class="btn btn-primary btn-lg w-100" type="submit">Submit Listing</button>
+                <button class="btn btn-primary btn-lg w-100" type="submit">Публикувай обявата</button>
             </form>
         </div>
     </div>

@@ -1,16 +1,16 @@
 @model New_project_2.ViewModels.MessagesPageViewModel
 @{
-    ViewData["Title"] = "Messages";
+    ViewData["Title"] = "Съобщения";
 }
 
 <div class="messages-shell rounded-4 overflow-hidden">
     <div class="row g-0">
         <aside class="col-md-4 col-lg-3 messages-list border-end">
-            <div class="p-3 border-bottom fw-semibold">Conversations</div>
+            <div class="p-3 border-bottom fw-semibold">Чатове</div>
             <div class="list-group list-group-flush">
                 @if (Model.Conversations.Count == 0)
                 {
-                    <div class="p-3 text-muted small">No conversations yet. Open a listing and click Contact Seller.</div>
+                    <div class="p-3 text-muted small">Все още нямаш чатове. Отвори обява и натисни Свържи се с продавача.</div>
                 }
                 else
                 {
@@ -33,7 +33,7 @@
         <section class="col-md-8 col-lg-9 d-flex flex-column chat-window">
             @if (Model.ActiveConversationId is null)
             {
-                <div class="p-4 text-muted">Select a conversation to start chatting.</div>
+                <div class="p-4 text-muted">Избери чат и започни да пишеш.</div>
             }
             else
             {
@@ -45,7 +45,7 @@
                 <div class="chat-body p-3 flex-grow-1">
                     @if (Model.Messages.Count == 0)
                     {
-                        <div class="text-muted small">No messages yet. Say hello.</div>
+                        <div class="text-muted small">Все още няма съобщения. Кажи Здравей !</div>
                     }
                     else
                     {
@@ -64,8 +64,8 @@
                         @Html.AntiForgeryToken()
                         <input type="hidden" name="conversationId" value="@Model.ActiveConversationId" />
                         <div class="input-group">
-                            <input class="form-control" name="newMessageText" placeholder="Type a message" maxlength="1000" />
-                            <button class="btn btn-primary" type="submit">Send</button>
+                            <input class="form-control" name="newMessageText" placeholder="Напиши съобщение" maxlength="1000" autocomplete="off" />
+                            <button class="btn btn-primary" type="submit">Изпрати</button>
                         </div>
                     </form>
                 </div>

@@ -1,6 +1,6 @@
 @model New_project_2.Models.Listing
 @{
-    ViewData["Title"] = "Listing Details";
+    ViewData["Title"] = "Детайли по оябвата";
     var related = ViewData["Related"] as List<New_project_2.Models.Listing> ?? new List<New_project_2.Models.Listing>();
 }
 
@@ -19,8 +19,8 @@
             <p class="text-muted">@Model.Description</p>
 
             <div class="seller-box p-3 rounded-4 my-4">
-                <p class="mb-1 fw-semibold">Seller: @Model.Seller?.Username</p>
-                <small class="text-muted d-block">ИМейл на продавача: @Model.Seller?.Email</small>
+                <p class="mb-1 fw-semibold">Продавач: @Model.Seller?.Username</p>
+                <small class="text-muted d-block">Имейл на продавача: @Model.Seller?.Email</small>
             </div>
 
             @if (User.Identity?.IsAuthenticated == true)
