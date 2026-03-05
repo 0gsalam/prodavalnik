@@ -1,32 +1,33 @@
 @model IEnumerable<New_project_2.Models.Listing>
 @{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Начало";
 }
 
 <section class="hero-section rounded-4 p-4 p-lg-5 mb-4">
     <div class="row align-items-center g-4">
         <div class="col-lg-7">
-            <span class="badge text-bg-light mb-3">Local marketplace</span>
-            <h1 class="display-6 fw-bold mb-3">Buy, sell, and chat instantly on Prodavalnik.</h1>
-            <p class="text-muted mb-4">Discover fresh listings near you and post products in minutes.</p>
+            <span class="badge text-bg-light mb-3">Локален продавалник</span>
+            <h1 class="display-6 fw-bold mb-3">Купувай, продавай, и комуникирай директно в Prodavalnik</h1>
+            @* <p class="text-muted mb-4">Discover fresh listings near you and post products in minutes.</p> *@
+            <p class="text-muted mb-4">Откривай нови обяви около теб и продавай за минути</p>
             <div class="d-flex gap-2 flex-wrap">
-                <a asp-controller="Listings" asp-action="Index" class="btn btn-primary btn-lg">Browse Listings</a>
-                <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark btn-lg">Post Ad</a>
+                <a asp-controller="Listings" asp-action="Index" class="btn btn-primary btn-lg">Разгледай обяви</a>
+                <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark btn-lg">Публикувай</a>
             </div>
         </div>
         <div class="col-lg-5">
             <div class="stats-card p-4 rounded-4">
                 <div class="row g-3">
                     <div class="col-4">
-                        <p class="small text-muted mb-1">Ads</p>
+                        <p class="small text-muted mb-1">Обяви</p>
                         <p class="h4 mb-0">@Model.Count()</p>
                     </div>
                     <div class="col-4">
-                        <p class="small text-muted mb-1">Users</p>
+                        <p class="small text-muted mb-1">Потребители</p>
                         <p class="h4 mb-0">2+</p>
                     </div>
                     <div class="col-4">
-                        <p class="small text-muted mb-1">Cities</p>
+                        <p class="small text-muted mb-1">Град</p>
                         <p class="h4 mb-0">G. Oryahovitza</p>
                     </div>
                 </div>
@@ -37,7 +38,7 @@
 
 <section>
     <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2 class="h4 mb-0">Featured Listings</h2>
+        <h2 class="h4 mb-0">Обяви</h2>
         <a asp-controller="Listings" asp-action="Index" class="text-decoration-none fw-semibold">See all</a>
     </div>
     <div class="row g-4">
@@ -51,7 +52,7 @@
                         <h3 class="h6 fw-bold">@item.Title</h3>
                         <p class="text-primary fw-bold mb-2">$@item.Price</p>
                         <p class="text-muted small mb-3">@item.Description</p>
-                        <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-dark mt-auto">View Listing</a>
+                        <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-dark mt-auto">Виж обява</a>
                     </div>
                 </article>
             </div>

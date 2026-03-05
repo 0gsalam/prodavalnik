@@ -1,6 +1,6 @@
 @model IEnumerable<New_project_2.Models.Listing>
 @{
-    ViewData["Title"] = "Marketplace";
+    ViewData["Title"] = "Обяви";
 }
 
 <div class="row g-4">
@@ -10,30 +10,30 @@
 
             <form method="get" asp-action="Index" asp-controller="Listings">
                 <div class="mb-3">
-                    <label class="form-label">Search</label>
-                    <input class="form-control" name="q" value="@Context.Request.Query["q"]" placeholder="Search products" />
+                    <label class="form-label">Терсене</label>
+                    <input class="form-control" name="q" value="@Context.Request.Query["q"]" placeholder="Търси продукт" />
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Category</label>
+                    <label class="form-label">Категория</label>
                     <select class="form-select" name="category">
-                        <option value="">All</option>
-                        <option>Electronics</option>
-                        <option>Vehicles</option>
-                        <option>Home and Garden</option>
-                        <option>Fashion</option>
+                        <option value="">Всички</option>
+                        <option>Електроника</option>
+                        <option>Коли</option>
+                        <option>За дома и градината</option>
+                        <option>Мода</option>
                     </select>
                 </div>
 
-                <button class="btn btn-primary w-100" type="submit">Apply</button>
+                <button class="btn btn-primary w-100" type="submit">Приложи</button>
             </form>
         </div>
     </aside>
 
     <section class="col-lg-9">
         <div class="d-flex justify-content-between align-items-center mb-3">
-            <h1 class="h4 mb-0">Marketplace Listings</h1>
-            <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark btn-sm">Create Listing</a>
+            <h1 class="h4 mb-0">Пуснати обяви</h1>
+            <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark btn-sm">Създай обява</a>
         </div>
 
         <div class="row g-4">
@@ -49,7 +49,7 @@
                             </div>
                             <h2 class="h6">@item.Title</h2>
                             <p class="small text-muted mb-3">@item.Description</p>
-                            <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm mt-auto">Open</a>
+                            <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm mt-auto">Отвори</a>
                         </div>
                     </article>
                 </div>

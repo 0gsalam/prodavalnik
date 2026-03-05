@@ -42,7 +42,7 @@ public class AdminController(AppDbContext context, IConfiguration configuration)
         var adminPassword = configuration["Admin:Password"] ?? "admin123";
         if (model.Password != adminPassword)
         {
-            ModelState.AddModelError(string.Empty, "Invalid admin password.");
+            ModelState.AddModelError(string.Empty, "Невалидна Admin парола.");
             return View("Login", model);
         }
 

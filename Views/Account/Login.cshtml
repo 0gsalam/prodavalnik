@@ -1,31 +1,31 @@
 @model New_project_2.ViewModels.LoginViewModel
 @{
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "Вход";
     var returnUrl = ViewData["ReturnUrl"]?.ToString();
 }
 
 <div class="row justify-content-center">
     <div class="col-md-7 col-lg-5">
         <div class="surface-card p-4 p-lg-5 rounded-4">
-            <h1 class="h4 mb-4">Login to Prodavalnik</h1>
-            <p class="small text-muted">Demo account: <strong>demo</strong> / <strong>demo123</strong></p>
+            <h1 class="h4 mb-4">Вход в Prodavalnik</h1>
+            <p class="small text-muted">Демо профил: <strong>demo</strong> / <strong>demo123</strong></p>
 
             <form method="post" asp-action="Login" asp-controller="Account" asp-route-returnUrl="@returnUrl">
                 @Html.AntiForgeryToken()
                 <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
 
                 <div class="mb-3">
-                    <label asp-for="UsernameOrEmail" class="form-label"></label>
-                    <input asp-for="UsernameOrEmail" class="form-control" placeholder="Enter your username or email" />
+                    <label asp-for="UsernameOrEmail" class="form-label">Име или имейл</label>
+                    <input asp-for="UsernameOrEmail" class="form-control" placeholder="Въведи име или имейл" />
                     <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
                 </div>
                 <div class="mb-4">
-                    <label asp-for="Password" class="form-label"></label>
-                    <input asp-for="Password" class="form-control" placeholder="Enter your password" />
+                    <label asp-for="Password" class="form-label">Парола</label>
+                    <input asp-for="Password" class="form-control" placeholder="Въведи парола" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
-                <button class="btn btn-primary w-100 mb-3" type="submit">Login</button>
-                <p class="text-center text-muted mb-0">No account? <a asp-controller="Account" asp-action="Register">Register here</a></p>
+                <button class="btn btn-primary w-100 mb-3" type="submit">Вход</button>
+                <p class="text-center text-muted mb-0">Нямаш профил? <a asp-controller="Account" asp-action="Register">Регистрирай се</a></p>
             </form>
         </div>
     </div>

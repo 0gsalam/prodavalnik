@@ -1,6 +1,6 @@
 @model New_project_2.ViewModels.AdminDashboardViewModel
 @{
-    ViewData["Title"] = "Admin Dashboard";
+    ViewData["Title"] = "Admin Панел";
     var usersActive = Model.ActiveTab == "users";
     var listingsActive = Model.ActiveTab == "listings";
 }
@@ -8,15 +8,15 @@
 <div class="row g-4">
     <aside class="col-lg-3">
         <div class="surface-card p-3 rounded-4">
-            <p class="fw-bold mb-3">Admin Menu</p>
+            <p class="fw-bold mb-3">Admin Меню</p>
             <div class="d-grid gap-2">
-                <a asp-action="Index" asp-route-tab="users" class="btn text-start @(usersActive ? "btn-dark" : "btn-light")">Users (@Model.Users.Count)</a>
-                <a asp-action="Index" asp-route-tab="listings" class="btn text-start @(listingsActive ? "btn-dark" : "btn-light")">Listings (@Model.Listings.Count)</a>
+                <a asp-action="Index" asp-route-tab="users" class="btn text-start @(usersActive ? "btn-dark" : "btn-light")">Потребители (@Model.Users.Count)</a>
+                <a asp-action="Index" asp-route-tab="listings" class="btn text-start @(listingsActive ? "btn-dark" : "btn-light")">Обяви (@Model.Listings.Count)</a>
             </div>
             <hr />
             <form method="post" asp-action="Logout">
                 @Html.AntiForgeryToken()
-                <button type="submit" class="btn btn-outline-danger w-100">Lock Admin</button>
+                <button type="submit" class="btn btn-outline-danger w-100">Заключи панела</button>
             </form>
         </div>
     </aside>
@@ -25,14 +25,14 @@
         @if (usersActive)
         {
             <div class="surface-card p-4 rounded-4">
-                <h1 class="h5 mb-3">Manage Users</h1>
+                <h1 class="h5 mb-3">Управлявай потребители</h1>
                 <div class="table-responsive">
                     <table class="table table-hover align-middle">
                         <thead>
                             <tr>
-                                <th>Username</th>
-                                <th>Email</th>
-                                <th class="text-end">Actions</th>
+                                <th>Име</th>
+                                <th>Имейл</th>
+                                <th class="text-end">Опции</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -44,7 +44,7 @@
                                     <td class="text-end">
                                         <form method="post" asp-action="DeleteUser" asp-route-id="@user.Id" class="d-inline">
                                             @Html.AntiForgeryToken()
-                                            <button class="btn btn-sm btn-outline-danger" type="submit">Delete</button>
+                                            <button class="btn btn-sm btn-outline-danger" type="submit">Изтрий</button>
                                         </form>
                                     </td>
                                 </tr>
@@ -57,16 +57,16 @@
         else
         {
             <div class="surface-card p-4 rounded-4">
-                <h2 class="h5 mb-3">Manage Listings</h2>
+                <h2 class="h5 mb-3">Оправлявай обяви</h2>
                 <div class="table-responsive">
                     <table class="table align-middle">
                         <thead>
                             <tr>
-                                <th>Listing</th>
-                                <th>Category</th>
-                                <th>Price</th>
-                                <th>Seller</th>
-                                <th class="text-end">Actions</th>
+                                <th>Обява</th>
+                                <th>Категория</th>
+                                <th>Цена</th>
+                                <th>Продавач</th>
+                                <th class="text-end">Опции</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -78,10 +78,10 @@
                                     <td>$@item.Price</td>
                                     <td>@item.Seller?.Username</td>
                                     <td class="text-end">
-                                        <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View</a>
+                                        <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Виж</a>
                                         <form method="post" asp-action="DeleteListing" asp-route-id="@item.Id" class="d-inline">
                                             @Html.AntiForgeryToken()
-                                            <button class="btn btn-sm btn-outline-danger" type="submit">Delete</button>
+                                            <button class="btn btn-sm btn-outline-danger" type="submit">Изтрий</button>
                                         </form>
                                     </td>
                                 </tr>
