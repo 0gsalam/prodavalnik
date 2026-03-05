@@ -1,32 +1,34 @@
-# Prodavalnik (Demo MVC App)
+# Prodavalnik (Демо MVC приложение)
 
-## What this project demonstrates
-- ASP.NET Core MVC views + controllers
-- SQL Server (LocalDB) database with EF Core
-- Cookie authentication (login/register/logout)
-- Basic marketplace flow: browse listings, view details, create listing
+## Какво демонстрира този проект
+- ASP.NET Core MVC изгледи (views) и контролери  
+- SQL Server (LocalDB) база данни с EF Core  
+- Cookie автентикация (вход / регистрация / изход)  
+- Основен marketplace процес: разглеждане на обяви, преглед на детайли, създаване на обява  
 
-## Database
-Connection string is in `appsettings.json`:
-- Server: `(localdb)\\MSSQLLocalDB`
+## База данни
+Connection string е в `appsettings.json`:
+
+- Server: `(localdb)\\MSSQLLocalDB`  
 - Database: `ProdavalnikDb`
 
-The app auto-creates and seeds data on startup (`Data/DbInitializer.cs`).
+Приложението автоматично създава базата и добавя начални данни при стартиране (`Data/DbInitializer.cs`).
 
-## Demo account
-- Username: `demo`
-- Password: `demo123`
+## Демо акаунт
+- Потребителско име: `demo`  
+- Парола: `demo123`
 
-## Main code to present
-- Startup and DI: `Program.cs`
+<!--
+## Основен код за представяне
+- Startup и Dependency Injection: `Program.cs`
 - Database context: `Data/AppDbContext.cs`
 - Models: `Models/AppUser.cs`, `Models/Listing.cs`
 - Auth flow: `Controllers/AccountController.cs`
 - Listings flow: `Controllers/ListingsController.cs`
 - Profile flow: `Controllers/ProfileController.cs`
-- Admin page: `Controllers/AdminController.cs`
+- Admin страница: `Controllers/AdminController.cs`
+-->
 
-## Run
+## Стартиране
 ```powershell
 dotnet run --project ".\\New project 2.csproj"
-```
