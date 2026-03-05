@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - Prodavalnik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <div id="google_translate_element" class="d-none"></div>
+
+    <div class="lang-switcher" role="group" aria-label="Language switcher">
+        <button type="button" class="btn btn-sm btn-light" onclick="setSiteLanguage('en')">English</button>
+        <button type="button" class="btn btn-sm btn-light" onclick="setSiteLanguage('bg')">Bulgarian</button>
+    </div>
+
+    @await Html.PartialAsync("_Navbar")
+
+    <main class="app-main py-4 py-lg-5">
+        <div class="container-xl">
+            @RenderBody()
+        </div>
+    </main>
+
+    @await Html.PartialAsync("_Footer")
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {
+                    pageLanguage: 'en',
+                    includedLanguages: 'en,bg',
+                    autoDisplay: false
+                },
+                'google_translate_element'
+            );
+        }
+
+        function setGoogleTranslateCookie(lang) {
+            const value = '/en/' + lang;
+            document.cookie = 'googtrans=' + value + ';path=/';
+            document.cookie = 'googtrans=' + value + ';path=/;domain=' + window.location.hostname;
+            localStorage.setItem('prodavalnik_lang', lang);
+        }
+
+        function setSiteLanguage(lang) {
+            setGoogleTranslateCookie(lang);
+            window.location.reload();
+        }
+
+        window.setSiteLanguage = setSiteLanguage;
+
+        window.addEventListener('load', function () {
+            const saved = localStorage.getItem('prodavalnik_lang');
+            if (saved) {
+                setGoogleTranslateCookie(saved);
+            }
+        });
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,143 @@
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\appsettings.json
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.staticwebassets.runtime.json
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.staticwebassets.endpoints.json
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.deps.json
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.runtimeconfig.json
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.pdb
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.AssemblyInfoInputs.cache
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.AssemblyInfo.cs
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.RazorAssemblyInfo.cache
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.RazorAssemblyInfo.cs
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\scopedcss\bundle\New project 2.styles.css
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\klojj5isgh-61n19gt1b8.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\pjk53nygq9-xtxxf3hu2r.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\eo5yaolyhb-bqjiyaj88i.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\zxj8z2g55i-c2jlpeoesf.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\aec6nxkof1-erw9l3u2r3.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\3cyjqbtnhp-aexeepp0ev.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\sxone7gqxw-d7shbmvgxk.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\m6u2uqm3kr-ausgxo2sd3.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\xtgdqecp2e-k8d9w2qqmf.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\91ilk3zgxg-cosvhxvwiu.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\c4vtl5kfmx-ub07r2b239.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\4c5a39cxdw-fvhpjtyr6v.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\iw5a1jqg9v-b7pk76d08c.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\93mqd01112-fsbi9cje9m.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\ejed5hqffo-rzd6atqjts.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\40b861gtql-ee0r1s7dh0.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\6hro2cdfdz-dxx9fxp4il.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\bcfu98uswc-jd9uben2k1.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\xbmyl0v3tv-khv3u5hwcm.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\maiwojqegn-r4e9w2rdcm.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\mu7zffbpc4-lcd1t2u6c8.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\74osef8qgj-c2oey78nd0.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\n7wkcypsxo-tdbxkamptv.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\5qqvqjvndn-j5mq2jizvt.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\i5tqqo9h6n-06098lyss8.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\vb5gjhpp77-nvvlpmu67g.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\hdh6rt129a-s35ty4nyc5.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\7zkabzsayx-pj5nd1wqec.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\gvl7uxjypr-46ein0sx1k.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\ajni8fkts9-v0zj4ognzu.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\9ep66ml6ft-37tfw0ft22.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\lr8qq69yrk-hrwsygsryq.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\mkrqmlwllc-pk9g2wxc8p.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\a099zlog1d-ft3s53vfgj.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\1v63rymir0-6cfz1n2cew.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\wpp2dnrpj0-6pdc2jztkx.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\5bjyk7vxtm-493y06b0oq.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\cyte5st9th-iovd86k7lj.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\r16i5sdfdj-vr1egmr9el.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\qa6fllix0q-kbrnm935zg.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\a3jxilhsc9-jj8uyg4cgr.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\vjoxwikdfu-y7v9cxd14o.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\i2xht0klls-notf2xhcfb.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\4jjg4g31ry-h1s4sie4z3.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\3mq1kof0qq-63fj8s7r0e.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\flrhwv86qx-0j3bgjxly4.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\i4vgxx6gje-47otxtyo56.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\rboxu4lq5s-4v8eqarkd7.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\zmtb3f2za6-356vix0kms.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\l9qghrrjg8-83jwlth58m.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\a14wazwxvg-mrlpezrjn3.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\y7xrjpte4n-lzl9nlhx6b.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\i36kt60zl3-ag7o75518u.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\uvknvrj7tz-x0q3zqp4vz.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\cp69dgxms5-0i3buxo5is.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\y9r7zlprqp-o1o13a6vjx.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\yj3c1hvst4-ttgo8qnofa.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\u56ilx5fnc-2z0ns9nrw6.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\5msfg8o0wz-muycvpuwrr.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\v2l1su4qj1-87fc7y1x7t.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\8a3lzjb5vm-mlv21k5csn.gz
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.dll
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\refint\New project 2.dll
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.pdb
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.genruntimeconfig.cache
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\ref\New project 2.dll
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.csproj.AssemblyReference.cache
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New proj.72D665A7.Up2Date
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\4l826vlsu5-yzxi3cd9qh.gz
+C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.exe
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

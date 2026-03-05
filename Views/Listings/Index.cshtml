@@ -1,0 +1,59 @@
+@model IEnumerable<New_project_2.Models.Listing>
+@{
+    ViewData["Title"] = "Marketplace";
+}
+
+<div class="row g-4">
+    <aside class="col-lg-3">
+        <div class="filter-card p-3 p-lg-4 rounded-4">
+            <h2 class="h6 fw-bold mb-3">Filters</h2>
+
+            <form method="get" asp-action="Index" asp-controller="Listings">
+                <div class="mb-3">
+                    <label class="form-label">Search</label>
+                    <input class="form-control" name="q" value="@Context.Request.Query["q"]" placeholder="Search products" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Category</label>
+                    <select class="form-select" name="category">
+                        <option value="">All</option>
+                        <option>Electronics</option>
+                        <option>Vehicles</option>
+                        <option>Home and Garden</option>
+                        <option>Fashion</option>
+                    </select>
+                </div>
+
+                <button class="btn btn-primary w-100" type="submit">Apply</button>
+            </form>
+        </div>
+    </aside>
+
+    <section class="col-lg-9">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h1 class="h4 mb-0">Marketplace Listings</h1>
+            <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark btn-sm">Create Listing</a>
+        </div>
+
+        <div class="row g-4">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-6 col-xl-4">
+                    <article class="listing-card card border-0 h-100">
+                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Title" />
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge text-bg-light">@item.Category</span>
+                                <span class="text-primary fw-bold">$@item.Price</span>
+                            </div>
+                            <h2 class="h6">@item.Title</h2>
+                            <p class="small text-muted mb-3">@item.Description</p>
+                            <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-dark btn-sm mt-auto">Open</a>
+                        </div>
+                    </article>
+                </div>
+            }
+        </div>
+    </section>
+</div>

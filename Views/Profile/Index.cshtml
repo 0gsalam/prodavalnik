@@ -1,0 +1,54 @@
+@model New_project_2.ViewModels.ProfileViewModel
+@{
+    ViewData["Title"] = "Profile";
+    var initials = string.IsNullOrWhiteSpace(Model.User.Username)
+        ? "U"
+        : Model.User.Username.Substring(0, Math.Min(Model.User.Username.Length, 2)).ToUpper();
+}
+
+<div class="row g-4">
+    <div class="col-lg-4">
+        <div class="surface-card p-4 rounded-4 h-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="avatar-circle">@initials</div>
+                <div>
+                    <h1 class="h5 mb-0">@Model.User.Username</h1>
+                    <small class="text-muted">@Model.User.Email</small>
+                </div>
+            </div>
+            <p class="text-muted">Member since @Model.User.CreatedAtUtc.ToString("yyyy")</p>
+            <a asp-controller="Listings" asp-action="Create" class="btn btn-outline-dark w-100">Create Listing</a>
+        </div>
+    </div>
+
+    <div class="col-lg-8">
+        <div class="surface-card p-4 rounded-4">
+            <h2 class="h5 mb-3">My Listings</h2>
+            <div class="table-responsive">
+                <table class="table align-middle">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Price</th>
+                            <th>Category</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Listings)
+                        {
+                            <tr>
+                                <td>@item.Title</td>
+                                <td class="fw-semibold">$@item.Price</td>
+                                <td><span class="badge text-bg-light">@item.Category</span></td>
+                                <td class="text-end">
+                                    <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
