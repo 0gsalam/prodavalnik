@@ -51,7 +51,7 @@ public class AdminController(AppDbContext context, IConfiguration configuration)
             HttpOnly = true,
             IsEssential = true,
             SameSite = SameSiteMode.Lax,
-            Expires = DateTimeOffset.UtcNow.AddHours(8)
+            Expires = DateTimeOffset.UtcNow.AddMinutes(5)
         });
 
         return RedirectToAction(nameof(Index));

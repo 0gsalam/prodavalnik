@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\marti\\Documents\\New project 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F16907BC-C1E2-4915-8C76-2F7B7CF7EE04}|New project 2.csproj|c:\\users\\marti\\documents\\new project 2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F16907BC-C1E2-4915-8C76-2F7B7CF7EE04}|New project 2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F16907BC-C1E2-4915-8C76-2F7B7CF7EE04}|New project 2.csproj|c:\\users\\marti\\documents\\new project 2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16907BC-C1E2-4915-8C76-2F7B7CF7EE04}|New project 2.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\marti\\Documents\\New project 2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\marti\\Documents\\New project 2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-05T19:07:49.077Z",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Documents\\New project 2\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\marti\\Documents\\New project 2\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T08:02:37.753Z",
               "EditorCaption": ""
             }
           ]

@@ -141,3 +141,4 @@ C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New proj.72D665A7.Up2Dat
 C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\compressed\4l826vlsu5-yzxi3cd9qh.gz
 C:\Users\marti\Documents\New project 2\bin\Debug\net9.0\New project 2.exe
 C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\New project 2.sourcelink.json
+C:\Users\marti\Documents\New project 2\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

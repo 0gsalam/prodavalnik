@@ -1,4 +1,4 @@
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
@@ -93,7 +93,7 @@ public class AccountController(AppDbContext context, IPasswordHasher<AppUser> ha
         var exists = await context.Users.AnyAsync(u => u.Username == model.Username || u.Email == model.Email);
         if (exists)
         {
-            ModelState.AddModelError(string.Empty, "Username or email already exists.");
+            ModelState.AddModelError(string.Empty, "Името или имейлът е вече използван.");
             return View(model);
         }
 
