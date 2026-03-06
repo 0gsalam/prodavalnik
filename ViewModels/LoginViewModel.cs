@@ -1,14 +1,15 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace New_project_2.ViewModels;
 
 public class LoginViewModel
 {
-    [Required]
-    [Display(Name = "Username or Email")]
+    [Required(ErrorMessage = "Това поле е задължително.")]
+    [Display(Name = "Име или имейл")]
     public string UsernameOrEmail { get; set; } = string.Empty;
 
-    [Required]
+    [Required(ErrorMessage = "Това поле е задължително.")]
     [DataType(DataType.Password)]
+    [Display(Name = "Парола")]
     public string Password { get; set; } = string.Empty;
 }

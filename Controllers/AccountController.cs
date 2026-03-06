@@ -39,14 +39,14 @@ public class AccountController(AppDbContext context, IPasswordHasher<AppUser> ha
 
         if (user is null)
         {
-            ModelState.AddModelError(string.Empty, "Invalid credentials.");
+            ModelState.AddModelError(string.Empty, "Невалидни данни.");
             return View(model);
         }
 
         var result = hasher.VerifyHashedPassword(user, user.PasswordHash, model.Password);
         if (result == PasswordVerificationResult.Failed)
         {
-            ModelState.AddModelError(string.Empty, "Invalid credentials.");
+            ModelState.AddModelError(string.Empty, "Невалидни данни.");
             return View(model);
         }
 
